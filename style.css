@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #0F0E21;
+    overflow-x: hidden;
+}
+nav , nav ul{
+    display: flex;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 40px 0px 40px;
+}
+.logo-word a{
+    text-decoration: none;
+}
+.logo-word span {
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-size:25px;
+    font-weight: 700;
+}
+.logo-word span:nth-child(1) {
+    color: #2400ff;
+}
+ul li {
+    color: #2400ff;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    list-style: none;
+}
+li a {
+    color: #2400ff;
+    text-decoration: none;
+}
+li a:hover {
+    color: #3c25d6;
+}
+ul {
+    gap: 50px;
+}
+.collaboration-content {
+    display: flex;
+    margin: 150px 40px 0px 40px;
+    color: white;
+    font-family: Cabin Condensed, sans-serif;
+}
+.collaboration-content h1 {
+    margin-bottom: 35px;
+    font-size: 56px;
+}
+.collaboration-content p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.element-blur-blue {
+    position: absolute;
+    top: -70px;
+    left: -500px;
+}
+.learn-button {
+    background-color: #060125;
+    border: 1px solid #2400ff;
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    position: absolute;
+}
+.learn-button a {
+    color: #2400ff;
+    text-decoration: none;
+}
+.learn-button:hover {
+    background-color: #100c2c;
+    cursor: pointer;
+}
+.course-button {
+    background-color: #000000;
+    border: 1px solid #2400ff;
+    color: #2400ff;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight:bold;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+    margin-left: 160px;
+    position: absolute;
+}
+.course-button a {
+    color: #2400ff;
+    text-decoration: none;
+}
+.course-button:hover {
+    background-color: #0e0e0f;
+    cursor: pointer;
+}
+.introducing-collaboration-content{
+    margin-right: 150px;
+}
+#we-are {
+    display: flex;
+    margin: 150px 40px 0px 40px;
+}
+.we-are-description {
+    margin-top: 60px;
+}
+.we-are-description h1 {
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-size: 56px;
+    margin-bottom: 40px;
+}
+.we-are-description h1 span {
+    color: #2400ff;
+    font-family: Cabin Condensed,sans-serif;
+}
+.we-are-description p{
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.we-are-description p span {
+    color: #2400ff;
+    font-family: Cabin Condensed,sans-serif;
+}
+.element-blur-blue-right {
+    position: absolute;
+    top: 920px;
+    left: 290px;
+}
+.world-map {
+    display: flex;
+    margin-top: 100px;
+}
+.find-your-partner {
+    margin: 100px 40px 0px 40px;
+    text-align: center;
+}
+.find-your-partner h1 {
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.find-your-partner span {
+    color: #2400ff;
+}
+.find-your-partner p {
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.digital-platforms {
+    display: flex;
+    margin-top: 300px;
+}
+.digital-platforms h1 {
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.digital-platforms span {
+    color: #2400ff;
+}
+.title-and-platforms {
+    margin: 0 auto;
+}
+.platforms-list {
+    display: flex;
+    margin-top: 50px;
+    gap: 80px;
+}
+.instagram p {
+    color: #FF4D82;
+    margin-top: 20px;
+margin-left: -25px;
+font-family: Cabin Condensed,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+.facebook p {
+    margin-top: 20px;
+margin-left: -25px;
+color: #4267B2;
+font-family: Cabin Condensed,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+.twitter p {
+    margin-top: 20px;
+    margin-left: -16px;
+    color: #1DA1F2;
+font-family: Cabin Condensed,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+.tiktok p {
+    margin-top: 20px;
+    margin-left: -10px;
+    color: #ffff;
+font-family: Cabin Condensed,sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+}
+.list-language {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 32px;
+    margin-bottom: 100px;
+}
+.title-and-paragraph {
+    margin-top: 30px;
+}
+.title-and-paragraph h1 {
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: 700;
+    color: #EF652A;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title-and-paragraph p {
+    text-align: center;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.css {
+    margin-right: -40px;
+}
+.title-and-paragraph-2 {
+    margin-top: 30px;
+}
+.title-and-paragraph-2 h1 {
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: 700;
+    color: #2965F1;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title-and-paragraph-2 p {
+    text-align: center;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.title-and-paragraph-3 {
+    margin-top: 30px;
+}
+.title-and-paragraph-3 h1 {
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: 700;
+    color: #FFDE25;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.title-and-paragraph-3 p {
+    text-align: center;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.share-to-github {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+}
+.share-to-github span {
+    color: #2400ff;
+}
+.share-to-github p {
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.share-to-github h1 {
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 90px;
+}
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 30px;
+}
+footer p {
+    font-size: 12px;
+    color: white;
+    font-family: Cabin Condensed,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    gap: 10px;
+}
+.selected {
+    color: white;
+}
+.unselected {
+    color: blue;
+}
